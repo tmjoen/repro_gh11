@@ -1,0 +1,17 @@
+{
+  "name": "repro_gh11",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0-beta.64",
+    "vite-plugin-legacy": "^2.1.0"
+  },
+  "dependencies": {
+    "@univers-agency/jupiter": "^3.39.2",
+    "lodash": "^4.17.20"
+  }
+}
