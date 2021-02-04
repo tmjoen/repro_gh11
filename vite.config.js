@@ -4,7 +4,7 @@ import legacyPlugin from 'vite-plugin-legacy'
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
-    manifest: false,
+    manifest: true,
     emptyOutDir: true,
     target: "es2018",
     outDir: "priv/static", // <- Phoenix expects our files here
